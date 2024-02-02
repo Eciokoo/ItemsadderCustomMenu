@@ -1,0 +1,17 @@
+menu_title: ':offset_-8::customItemsadderMenuName:' #CustomMenus generally uses offset_-8, if offset not work please change
+open_command: 
+- menuopencommand
+size: 36
+items:
+  bilgi:
+    material: paper #This material may vary from server to server, the actual material of the item is entered here
+    nbt_int: CustomModelData:10007 #CustomModelData may vary from server to server, to learn customModelData: /iacustommodeldata
+    display_name: '&eBack'
+    hide_attributes: true #This feature hides "5 Attack Damage", "2 Attack Speed" etc
+    slots:
+    - 1
+    lore:
+    left_click_commands:
+      - '[player] menu'
+    right_click_commands:
+      - '[player] menu'
